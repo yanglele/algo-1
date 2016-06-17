@@ -10,6 +10,7 @@ public class Main {
 		U.p(d);
 		qs(d, 0, d.length - 1);
 		U.p(d);
+		return;
 		// new IntsToMaxValue();
 		// System.out.println(Integer.toString(303));
 		// String arr = "222222 22222222 2222222222 22222222222222222";
@@ -48,9 +49,9 @@ public class Main {
 			return;
 		int i = l, j = r, tmp = data[l], t;
 		while (i < j) {
-			while (data[j] >= tmp && i < j) // 等于不能丢！
+			while (data[j] >= tmp && i < j) // 绛変簬涓嶈兘涓紒
 				j--;
-			while (data[i] <= tmp && i < j)// 等于不能丢！
+			while (data[i] <= tmp && i < j)// 绛変簬涓嶈兘涓紒
 				i++;
 			if (i < j) {
 				t = data[i];
